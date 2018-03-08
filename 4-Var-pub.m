@@ -30,7 +30,8 @@ Print[startTimeString <> " Step 4: VAR calculator for ID: "<>ToString@id]
 paperId = ToString@id;
 
 (*VAR prob - here it is random*)
-SeedRandom[3]; RandomReal[];
+SeedRandom[3]; 
+prob = RandomReal[];
 
 (*Inverse CDF Normal dist for prob*)
 alpha = Quantile[NormalDistribution[], 1 - prob];
