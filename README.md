@@ -1,2 +1,2 @@
-# haircuts
-Market and liquidity risk of ruble bonds for haircut valuation
+# bonds-risk
+Market and liquidity risk of bonds
